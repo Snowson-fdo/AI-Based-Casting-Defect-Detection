@@ -1,14 +1,11 @@
 # AI-Based-Casting-Defect-Detection
 
-This repository contains the code, models, and deployment setup used for my Master's thesis:  
-**"AI-Based Casting Defect Detection Using Deep Learning and Cloud Deployment."**
+This repository contains the code, models, and deployment setup used for my Master's thesis: **"Data Analytics and Machine Learning in Industry 4.0: Leveraging cloud based analytics and AI to improve industrial processes"**
 
 ---
 
 ## 📌 Overview  
-The objective of this work is to develop an intelligent quality control system to detect casting defects in submersible pump impellers using deep learning models.
-
-This study compares the performance of the following architectures for **binary classification** of casting defects:
+The objective of this work is to develop an intelligent quality control system to detect casting defects in submersible pump impellers using deep learning models. This study compares the performance of the following architectures for **binary classification** of casting defects:
 
 - **MobileNetV2**  
 - **ResNet50**  
@@ -19,18 +16,18 @@ Comprehensive evaluation was conducted using metrics such as **accuracy**, **pre
 
 ---
 
-## ☁️ Cloud Deployment  
-The best-performing model was deployed using a **Streamlit-based web interface**, containerized using **Docker**, and made scalable for cloud-based inference to ensure real-time industrial applicability.
+## 🌐 Web Interface  
+The best-performing model was deployed using a **Streamlit-based web interface** for real-time defect prediction and quality assessment.
 
 ---
 
 ## 🛠️ Features
 
-- Clean, preprocessed grayscale dataset of 7,348 impeller images  
+- Preprocessed grayscale dataset of 7,348 impeller images  
 - Modular deep learning training pipeline  
 - Performance visualization and metrics comparison  
-- Streamlit web interface for live defect prediction  
-- Cloud-ready containerized architecture (Docker)
+- Streamlit web application for live defect prediction  
+- Lightweight deployment without containerization
 
 ---
 
@@ -40,9 +37,4 @@ The dataset used in this study is publicly available here:
 
 🔗 [Casting Product Image Dataset (Kaggle)](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product)
 
-Please download the dataset and place it in the `data/` directory.
-
----
-
-## 📦 Repository Structure
 
